@@ -7,14 +7,10 @@
 | 橫綱Y | FTXM**YVLT | 壁掛 | ? |
 | 橫綱X | FTXM**XVLT | 壁掛 | ? |
 | 橫綱V | FTXM**VVLT | 壁掛 | S21 mini |
-| 大關SA | FTXV22/28/36SAVLT | 壁掛 | S403 |
-| 大關SA | FTXV41/59/60/71SAVLT | 壁掛 | S21 or S21 mini |
-| 大關U | FTXV22/28/36UVLT | 壁掛 | S403  |
-| 大關U | FTXV41/50/60/71UVLT | 壁掛 | S403 or S403 mini?  |
-| 經典V | FTHF20/25/30VAVLT | 壁掛 | S403 |
-| 經典V | FTHF40/50/60/71VAVLT | 壁掛 | S403 or S403 mini? |
-| 一對二 | CTXP25/30TVLT | 壁掛 | S403 |
-| 一對二 | CTXP41/50/60/71WVLT | 壁掛 | ? |
+| 大關SA | FTXV**SAVLT | 壁掛 | S403 |
+| 大關U | FTXV**UVLT | 壁掛 | S403  |
+| 經典V | FTHF**VAVLT | 壁掛 | S403 |
+| 一對二 | CTXP**TVLT | 壁掛 | S403 |
 | 橫綱R(一對多) | FTXM**RVLT | 壁掛 | S21 |
 | 橫綱N | FTXM**NVLT | 壁掛 | ? |
 | 橫綱S | FTXM**SVLT | 壁掛 | ? |
