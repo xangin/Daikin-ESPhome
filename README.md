@@ -4,7 +4,7 @@
 
 | 系列 | 型號 | 型態 | 接頭 |
 |:--:|:--:|:--:|:--:|
-| 商用VRV | CDXS50DVMT | 吊隱 | S21 |
+| 商用VRV | CDXS**DVMT | 吊隱 | S21 |
 | 大關S | FTXV**SVLT | 壁掛 | S21 |
 | 橫綱R | FTXM**RVLT | 壁掛 | S21 |
 | 吊隱R | FDXV**RVLT | 吊隱 | S21 |
