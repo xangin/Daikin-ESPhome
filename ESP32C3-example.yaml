@@ -1,0 +1,131 @@
+substitutions:
+  devicename: climate-dk
+  mhi_device_id: climate_dk
+  device_id: "climate_dk"
+  upper_devicename: "Daikin AC"
+  brand: "Daikin"
+  model_name: "Climate"
+
+esphome:
+  name: $devicename
+  friendly_name: ${upper_devicename}
+  comment: ESP32C3 for $model_name
+  name_add_mac_suffix: true  
+  project:
+    name: "$brand.$model_name"
+    version: "ESP32C3" #hardware
+
+external_components:
+  - source: github://asund/esphome-daikin-s21@main
+    components: [ daikin_s21 ]
+
+esp32:
+  board: airm2m_core_esp32c3
+  framework:
+    type: esp-idf
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: ${devicename}
+    password: "12345678"
+
+captive_portal:
+
+# Enable logging
+logger:
+  baud_rate: 0 # disable serial logging;
+  #level: INFO
+
+# Enable Home Assistant API
+api:
+
+ota:
+  - platform: esphome
+  - platform: web_server
+    
+
+web_server:
+    
+status_led:
+  pin:
+    number: GPIO8 # Blue LED   
+    #inverted: True
+
+uart:
+  - id: s21_uart
+    tx_pin: GPIO7 #pin3 (RX to AC)
+    rx_pin: GPIO6 #pin4 (TX from AC)
+    baud_rate: 2400
+
+# The parent UART communication hub platform.
+daikin_s21:
+  uart: s21_uart
+  # update_interval: 15s  # supports periodic polling instead of more responsive free run
+
+climate:
+  - name: ${upper_devicename}
+    platform: daikin_s21
+    # Settings from ESPHome Climate component:
+    # visual:
+    #   target_temperature: 1
+    #   current_temperature: 0.5
+    # Settings from DaikinS21Climate:
+    supported_modes:  # off and heat_cool are always supported
+      - cool
+      - heat
+      - dry
+      - fan_only
+    supported_presets:  # none is always supported
+      - eco
+      - boost
+    supports_humidity: true # If your unit supports humidity, it can be reported in the climate component
+    # Optional HA sensor used to alter setpoint.
+    #room_temperature_sensor: room_temp  # See homeassistant sensor below
+    #setpoint_interval: 300s # Interval used to adjust the unit's setpoint if the room temperature sensor is specified
+
+# Optional additional sensors.
+sensor:
+  - platform: daikin_s21
+    inside_temperature:
+      name: ${upper_devicename} Inside Temperature
+    outside_temperature:
+      name: ${upper_devicename} Outside Temperature
+    coil_temperature:
+      name: ${upper_devicename} Coil Temperature
+    fan_speed:
+      name: ${upper_devicename} Fan Speed
+    swing_vertical_angle:
+      name: ${upper_devicename} Swing Vertical Angle
+    compressor_frequency:
+      name: ${upper_devicename} Compressor Frequency
+    humidity:
+      name: ${upper_devicename} Humidity
+
+binary_sensor:
+  - platform: daikin_s21
+    powerful:
+      name: ${upper_devicename} Powerful
+    defrost:
+      name: ${upper_devicename} Defrost
+    online:
+      name: ${upper_devicename} Online
+    valve:
+      name: ${upper_devicename} Valve
+    short_cycle:
+      name: ${upper_devicename} Short Cycle
+    system_defrost:
+      name: ${upper_devicename} System Defrost
+    multizone_conflict:
+      name: ${upper_devicename} Multizone Conflict    
+      
+  - platform: status
+    name: "${upper_devicename} Status"    
+    
+    
+    
+    
