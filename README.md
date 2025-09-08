@@ -1,5 +1,7 @@
 # Daikin-ESPhome
 
+大金空調常見有四種接頭，此專案分享台灣型號與接頭對照表與腳位定義，供想DIY的人使用
+
 ### 接頭形式與型號系列對照表:
 
 | 系列 | 型號 | 型態 | 接頭 |
@@ -68,4 +70,16 @@
 針數: 5Pins
 
 <img src="images/S21_mini.png" width="70%" />
+
+
+## Credit & Thanks
+
+- Wiring references: [https://github.com/revk/ESP32-Faikin/wiki/Wiring](https://github.com/revk/ESP32-Faikin/wiki/Wiring)
+- ESPhome component: [https://github.com/asund/esphome-daikin-s21](https://github.com/asund/esphome-daikin-s21)
+- 台灣大金適用無線控制型號列表: [台灣官網](https://www.hotaidev.com.tw/web/product/9/59.html)
+
+
+
+
+
 
