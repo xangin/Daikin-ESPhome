@@ -4,21 +4,21 @@
 
 ### 接頭形式與型號系列對照表:
 
-| 系列 | 型號 | 型態 | 接頭 |
-|:--:|:--:|:--:|:--:|
-| 橫綱Y | FTXM**YVLT | 壁掛 | ? |
-| 橫綱X | FTXM**XVLT | 壁掛 | ? |
-| 橫綱V | FTXM**VVLT | 壁掛 | S21 mini |
-| 大關SA | FTXV**SAVLT | 壁掛 | S403 |
-| 大關U | FTXV**UVLT | 壁掛 | S403  |
-| 經典V | FTHF**VAVLT | 壁掛 | S403 |
-| 一對二 | CTXP**TVLT | 壁掛 | S403 |
-| 橫綱R(一對多) | FTXM**RVLT | 壁掛 | S21 |
-| 橫綱N | FTXM**NVLT | 壁掛 | ? |
-| 橫綱S | FTXM**SVLT | 壁掛 | ? |
-| 經典R | FTHF**RAVLT | 壁掛 | S403 mini |
-| 吊隱R | FDXV**RVLT | 吊隱 | S21 |
-| 商用VRV | CDXS**DVMT | 吊隱 | S21 |
+| 系列 | 型號 | 型態 | 接頭 | 備註 |
+|:--:|:--:|:--:|:--:|:--:|
+| 橫綱Y | FTXM**YVLT | 壁掛 | ? | - |
+| 橫綱X | FTXM**XVLT | 壁掛 | ? | - |
+| 橫綱V | FTXM**VVLT | 壁掛 | S21 mini | - |
+| 大關SA | FTXV**SAVLT | 壁掛 | S403 | - |
+| 大關U | FTXV**UVLT | 壁掛 | S403  | - |
+| 經典V | FTHF**VAVLT | 壁掛 | S403 | - |
+| 一對二 | CTXP**TVLT | 壁掛 | S403 | - |
+| 橫綱R(一對多) | FTXM**RVLT | 壁掛 | S21 | - |
+| 橫綱N | FTXM**NVLT | 壁掛 | ? | - |
+| 橫綱S | FTXM**SVLT | 壁掛 | ? | - |
+| 經典R | FTHF**RAVLT | 壁掛 | S403 mini | - |
+| 吊隱R | FDXV**RVLT | 吊隱 | S21 | - |
+| 商用VRV | CDXS**DVMT | 吊隱 | S21 | - |
 
 
 ***歡迎回報型號與接頭形式***
@@ -33,6 +33,8 @@
 
 針數: 10Pins
 
+備註: Pin10有超高電壓請務必斷電再安裝!!
+
 <img src="images/S403.jpg" width="70%" />
 
 ---
@@ -44,6 +46,8 @@
 間距: 2.0mm
 
 針數: 10Pins
+
+備註: Pin10有超高電壓請務必斷電再安裝!!
 
 <img src="images/S403_mini.jpg" width="70%" />
 
@@ -68,6 +72,8 @@
 間距: 2.0mm
 
 針數: 5Pins
+
+備註: **有些型號VCC是來自Pin1，詳細型號未知**
 
 <img src="images/S21_mini.png" width="70%" />
 
