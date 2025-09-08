@@ -8,6 +8,7 @@ substitutions:
 
 esphome:
   name: $devicename
+  min_version: "2025.7"
   friendly_name: ${upper_devicename}
   comment: ESP32C3 for $model_name
   name_add_mac_suffix: true  
