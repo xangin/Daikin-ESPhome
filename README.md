@@ -1,6 +1,30 @@
 # Daikin-ESPhome
 
+這是個使用ESP32C3搭配ESPhome來控制大金空調的專案，可適用壁掛及吊隱式冷氣
+
 大金空調常見有四種接頭，此專案分享台灣型號與接頭對照表與腳位定義，供想DIY的人使用
+
+歡迎發issue回報型號與接頭形式
+
+## 硬體架構
+
+### 硬體需求
+
+1. ESP32C3 super mini
+2. 5V to 3.3V level shifter (推薦使用)
+3. DCDC to 5V
+
+由於VCC電壓會>5V，所以一定要用DCDC降壓成5V再供給ESP32C3
+
+| Pin name | ESP32C3 |
+|:--:|:--:|
+| GND | GND |
+| TX | GPIO7 |
+| RX | GPIO6 |
+| VCC | DCDC模組input |
+| DCDC模組output | 5V |
+
+腳位定義與順序請參考下面資料
 
 ### 接頭形式與型號系列對照表:
 
@@ -20,7 +44,6 @@
 | 吊隱R | FDXV**RVLT | 吊隱 | S21 | - |
 | 商用VRV | CDXS**DVMT | 吊隱 | S21 | - |
 
-
 ***歡迎回報型號與接頭形式***
 
 ### 台灣型號常見有以下四種接頭形式:
@@ -33,7 +56,7 @@
 
 針數: 10Pins
 
-備註: Pin10有超高電壓請務必斷電再安裝!!
+備註: Pin10有超高電壓請務必確認順序及斷電再安裝!!
 
 <img src="images/S403.jpg" width="70%" />
 
@@ -47,7 +70,7 @@
 
 針數: 10Pins
 
-備註: Pin10有超高電壓請務必斷電再安裝!!
+備註: Pin10有超高電壓請務必確認順序及斷電再安裝!!
 
 <img src="images/S403_mini.jpg" width="70%" />
 
