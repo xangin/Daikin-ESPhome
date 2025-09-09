@@ -33,6 +33,7 @@
 | 橫綱Y | FTXM**YVLT | 壁掛 | ? | - |
 | 橫綱X | FTXM**XVLT | 壁掛 | ? | - |
 | 橫綱V | FTXM**VVLT | 壁掛 | S21 mini | - |
+| 橫綱Z | FTXM**ZVLT | 壁掛 | S21 mini | VCC在Pin1! |
 | 大關SA | FTXV**SAVLT | 壁掛 | S403 | - |
 | 大關Z | FTXV**ZVLT | 壁掛 | S403 mini | - |
 | 大關U | FTXV**UVLT | 壁掛 | S403  | - |
@@ -96,7 +97,7 @@
 
 針數: 5Pins
 
-備註: **有些型號VCC是來自Pin1，詳細型號未知**
+備註: **有些型號VCC是來自Pin1，目前已知橫綱Z系列是在Pin1**
 
 <img src="images/S21_mini.png" width="70%" />
 
