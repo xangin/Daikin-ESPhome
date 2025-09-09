@@ -37,14 +37,15 @@
 | 橫綱V | FTXM**VVLT | 壁掛 | S21 mini | - |
 | 橫綱Z | FTXM**ZVLT | 壁掛 | S21 mini | VCC在Pin1! |
 | 大關SA | FTXV**SAVLT | 壁掛 | S403 | - |
-| 大關Z | FTXV**ZVLT | 壁掛 | S403 mini | - |
-| 大關U | FTXV**UVLT | 壁掛 | S403  | - |
+| 大關Z | FTXV41/50/60/71ZVLT | 壁掛 | S403 mini | - |
+| 大關U | FTXV22/28/36UVLT | 壁掛 | S403  | - |
+| 大關U | FTXV41/50/60/71UVLT | 壁掛 | S403 mini  | - |
 | 經典V | FTHF**VAVLT | 壁掛 | S403 | - |
 | 一對二 | CTXP**TVLT | 壁掛 | S403 | - |
 | 橫綱R(一對多) | FTXM**RVLT | 壁掛 | S21 | - |
 | 橫綱N | FTXM**NVLT | 壁掛 | ? | - |
 | 橫綱S | FTXM**SVLT | 壁掛 | ? | - |
-| ? | FTXS**JVLT | 壁掛 | S21 | - |
+| ? | FTXS70JVLT | 壁掛 | S21 | - |
 | 經典R | FTHF**RAVLT | 壁掛 | S403 mini | - |
 | 吊隱R | FDXV**RVLT | 吊隱 | S21 | - |
 | 商用VRV | CDXS**DVMT | 吊隱 | S21 | - |
