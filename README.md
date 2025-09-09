@@ -45,7 +45,7 @@
 | 橫綱R(一對多) | FTXM**RVLT | 壁掛 | S21 | - |
 | 橫綱N | FTXM**NVLT | 壁掛 | ? | - |
 | 橫綱S | FTXM**SVLT | 壁掛 | ? | - |
-| ? | FTXS70JVLT | 壁掛 | S21 | - |
+| - | FTXS70JVLT | 壁掛 | S21 | - |
 | 經典R | FTHF**RAVLT | 壁掛 | S403 mini | - |
 | 吊隱R | FDXV**RVLT | 吊隱 | S21 | - |
 | 商用VRV | CDXS**DVMT | 吊隱 | S21 | - |
