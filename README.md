@@ -16,6 +16,8 @@
 
 由於VCC電壓會>5V，所以一定要用DCDC降壓成5V再供給ESP32C3
 
+範例YAML中的腳位定義如下:
+
 | Pin name | ESP32C3 |
 |:--:|:--:|
 | GND | GND |
