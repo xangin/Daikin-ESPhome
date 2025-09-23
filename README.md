@@ -34,9 +34,10 @@
 |:--:|:--:|:--:|:--:|:--:|
 | 橫綱Y | FTXM**YVLT | 壁掛 | ? | - |
 | 橫綱X | FTXM**XVLT | 壁掛 | ? | - |
+| 橫綱R | FTXM41/60RVLT | 壁掛 | S21 | - |
 | 橫綱V | FTXM**VVLT | 壁掛 | S21 mini | - |
 | 橫綱Z | FTXM**ZVLT | 壁掛 | S21 mini | VCC在Pin1! |
-| 大關SA | FTXV**SAVLT | 壁掛 | S403 | - |
+| 大關SA | FTXV28SAVLT | 壁掛 | S403 | - |
 | 大關Z | FTXV41/50/60/71ZVLT | 壁掛 | S403 mini | - |
 | 大關U | FTXV22/28/36UVLT | 壁掛 | S403  | - |
 | 大關U | FTXV41/50/60/71UVLT | 壁掛 | S403 mini  | - |
