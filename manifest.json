@@ -1,0 +1,22 @@
+{
+  "name": "Daikin ESPhome",
+  "version": "2025.9.25",
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "ota": {
+        "md5": "1234567890abcdef1234567890abcdef",
+        "path": "/local/esp32c3/firmware.bin",
+        "summary": "Another update",
+      }
+    },
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "md5": "1234567890abcdef1234567890abcdef",
+        "path": "/local/esp32c3/firmware.bin",
+        "summary": "Another update",
+      }
+    }    
+  ]
+}
