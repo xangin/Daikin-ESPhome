@@ -1,14 +1,14 @@
 {
   "name": "Daikin ESPhome",
-  "version": "1.2",
+  "version": "2025.9.25",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "ota": {
         "md5": "003b2a804858878ca3314e66f5003674",
         "path": "https://github.com/xangin/Daikin-ESPhome/raw/refs/heads/main/climate-dk.ota.bin",
-        "release_url": "http://example.com/releases/10",
-        "summary": "test update"
+        "release_url": "",
+        "summary": "test update123"
       }
     }   
   ]
