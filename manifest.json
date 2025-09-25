@@ -3,14 +3,6 @@
   "version": "2025.9.26",
   "builds": [
     {
-      "chipFamily": "ESP32-C3",
-      "ota": {
-        "md5": "003b2a804858878ca3314e66f5003674",
-        "path": "https://github.com/xangin/Daikin-ESPhome/raw/refs/heads/main/climate-dk.ota.bin",
-        "summary": "test update",
-      }
-    },
-    {
       "chipFamily": "ESP32-S3",
       "ota": {
         "md5": "003b2a804858878ca3314e66f5003674",
