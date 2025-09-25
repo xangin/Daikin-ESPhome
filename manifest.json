@@ -1,6 +1,6 @@
 {
   "name": "Daikin ESPhome",
-  "version": "2025.9.26",
+  "version": "1.2",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
