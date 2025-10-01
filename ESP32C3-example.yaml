@@ -8,12 +8,12 @@ substitutions:
 
 esphome:
   name: $devicename
-  min_version: "2025.7"
+  min_version: "2025.8"
   friendly_name: ${upper_devicename}
   comment: "ESP32C3 for Daikin AC"
   project:
-    name: "$brand.$model_name"
-    version: "ESP32C3" #hardware
+    name: "$brand.ESP32C3-$model_name"
+    version: "2025.10.1"
 
 external_components:
   - source: github://asund/esphome-daikin-s21@main
@@ -82,7 +82,7 @@ climate:
     supported_presets:  # none is always supported
       - eco
       - boost
-    supports_humidity: true # If your unit supports humidity, it can be reported in the climate component
+   humidity_sensor: daikin_humidity # If your unit supports humidity, it can be reported in the climate component
     # Optional HA sensor used to alter setpoint.
     #room_temperature_sensor: room_temp  # See homeassistant sensor below
     #setpoint_interval: 300s # Interval used to adjust the unit's setpoint if the room temperature sensor is specified
@@ -103,6 +103,7 @@ sensor:
     compressor_frequency:
       name: ${upper_devicename} Compressor Frequency
     humidity:
+      id: daikin_humidity
       name: ${upper_devicename} Humidity
 
   - platform: wifi_signal
