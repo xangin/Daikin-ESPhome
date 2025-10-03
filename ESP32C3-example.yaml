@@ -60,6 +60,9 @@ uart:
     tx_pin: GPIO7 #pin3 (RX to AC)
     rx_pin: GPIO6 #pin4 (TX from AC)
     baud_rate: 2400
+    data_bits: 8
+    parity: EVEN
+    stop_bits: 2    
 
 # The parent UART communication hub platform.
 daikin_s21:
