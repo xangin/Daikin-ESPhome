@@ -30,27 +30,30 @@
 
 ### 接頭形式與型號系列對照表:
 
-| 系列 | 型號 | 型態 | 接頭 | 備註 |
-|:--:|:--:|:--:|:--:|:--:|
-| 橫綱Y | FTXM**YVLT | 壁掛 | ? | - |
-| 橫綱X | FTXM**XVLT | 壁掛 | ? | - |
-| 橫綱R | FTXM41/60RVLT | 壁掛 | S21 | - |
-| 橫綱V | FTXM**VVLT | 壁掛 | S21 mini | - |
-| 橫綱Z | FTXM**ZVLT | 壁掛 | S21 mini | VCC在Pin1! |
-| 大關SA | FTXV28SAVLT | 壁掛 | S403 | - |
-| 大關Z | FTXV41/50/60/71ZVLT | 壁掛 | S403 mini | - |
-| 大關U | FTXV22/28/36UVLT | 壁掛 | S403  | - |
-| 大關U | FTXV41/50/60/71UVLT | 壁掛 | S403 mini  | - |
-| 經典V | FTHF**VAVLT | 壁掛 | S403 | - |
-| 一對二 | CTXP**TVLT | 壁掛 | S403 | - |
-| 橫綱R(一對多) | FTXM**RVLT | 壁掛 | S21 | - |
-| 橫綱N | FTXM**NVLT | 壁掛 | ? | - |
-| 橫綱S | FTXM**SVLT | 壁掛 | ? | - |
-| - | FTXS30KVLT | 壁掛 | S403 | - |
-| - | FTXS40/70JVLT | 壁掛 | S21 | - |
-| 經典R | FTHF**RAVLT | 壁掛 | S403 mini | - |
-| 吊隱R | FDXV**RVLT | 吊隱 | S21 | - |
-| 商用VRV | CDXS**DVMT | 吊隱 | S21 | - |
+| 型號 | 型態 | 接頭 | 備註 |
+|:--:|:--:|:--:|:--:|
+| FTXM**YVLT | 壁掛 | ? | - |
+| FTXM**XVLT | 壁掛 | ? | - |
+| FTXM41/60RVLT | 壁掛 | S21 | - |
+| FTXM**VVLT | 壁掛 | S21 mini | - |
+| FTXM**ZVLT | 壁掛 | S21 mini | VCC在Pin1! |
+| FTXV28SAVLT | 壁掛 | S403 | - |
+| FTXV41/50/60/71ZVLT | 壁掛 | S403 mini | - |
+| FTXV22/28/36UVLT | 壁掛 | S403  | - |
+| FTXV41/50/60/71UVLT | 壁掛 | S403 mini  | - |
+| FTXV36RVLT | 壁掛 | S21 | - |
+| FTHF**VAVLT | 壁掛 | S403 | - |
+| CTXP**TVLT | 壁掛 | S403 | - |
+| FTXM**RVLT | 壁掛 | S21 | - |
+| FTXM**NVLT | 壁掛 | ? | - |
+| FTXM**SVLT | 壁掛 | ? | - |
+| FTXS30KVLT | 壁掛 | S403 | - |
+| FTXS25KVLT | 壁掛 | S21 | - |
+| FTXS40/70JVLT | 壁掛 | S21 | - |
+| FTHF**RAVLT | 壁掛 | S403 mini | - |
+| FDXV**RVLT | 吊隱 | S21 | - |
+| CDXS**DVMT | 吊隱 | S21 | - |
+
 
 ### 台灣型號常見有以下四種接頭形式:
 
