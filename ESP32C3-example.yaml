@@ -13,7 +13,7 @@ esphome:
   comment: "ESP32C3 for Daikin AC"
   project:
     name: "$brand.ESP32C3-$model_name"
-    version: "2025.10.1"
+    version: "2025.10.8"
 
 external_components:
   - source: github://asund/esphome-daikin-s21@main
@@ -48,7 +48,6 @@ ota:
   - platform: esphome
   - platform: web_server
     
-
 web_server:
     
 status_led:
@@ -57,8 +56,8 @@ status_led:
 
 uart:
   - id: s21_uart
-    tx_pin: GPIO7 #pin3 (RX to AC)
-    rx_pin: GPIO6 #pin4 (TX from AC)
+    tx_pin: GPIO6 #pin3 (RX to AC)
+    rx_pin: GPIO7 #pin4 (TX from AC)
     baud_rate: 2400
     data_bits: 8
     parity: EVEN
