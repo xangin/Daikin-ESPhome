@@ -4,7 +4,7 @@
 
 這是個使用ESP32C3搭配ESPhome來控制大金空調的專案，可適用壁掛及吊隱式冷氣
 
-大金空調常見有四種接頭，此專案分享台灣型號與接頭對照表與腳位定義，供想DIY的人使用
+大金空調目前常見有四種接頭，此專案分享台灣型號與接頭對照表與腳位定義，供想DIY的人使用
 
 歡迎發issue回報型號與接頭形式
 
@@ -117,7 +117,7 @@
 - Wiring references: [https://github.com/revk/ESP32-Faikin/wiki/Wiring](https://github.com/revk/ESP32-Faikin/wiki/Wiring)
 - ESPhome component: [https://github.com/asund/esphome-daikin-s21](https://github.com/asund/esphome-daikin-s21)
 - 台灣大金適用無線控制型號列表: [台灣官網](https://www.hotaidev.com.tw/web/product/9/59.html)
-
+- 感謝協助測試硬體的何布、玉米、Aries Chuang
 
 
 
