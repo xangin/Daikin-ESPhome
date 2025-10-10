@@ -1,5 +1,7 @@
 # Daikin-ESPhome
 
+感謝[asund/esphome-daikin-s21](https://github.com/asund/esphome-daikin-s21)開發才能有這個專案
+
 這是個使用ESP32C3搭配ESPhome來控制大金空調的專案，可適用壁掛及吊隱式冷氣
 
 大金空調常見有四種接頭，此專案分享台灣型號與接頭對照表與腳位定義，供想DIY的人使用
@@ -21,8 +23,8 @@
 | Pin name | ESP32C3 |
 |:--:|:--:|
 | GND | GND |
-| TX | GPIO7 |
-| RX | GPIO6 |
+| TX | GPIO6 |
+| RX | GPIO7 |
 | VCC | DCDC模組input |
 | DCDC模組output | 5V |
 
