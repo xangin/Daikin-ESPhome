@@ -12,7 +12,7 @@
 
 ### 硬體需求
 
-1. ESP32C3 super mini
+1. ESP32C3 or ESP32S3 模組
 2. 5V to 3.3V level shifter (推薦使用)
 3. DCDC to 5V
 
