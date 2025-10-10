@@ -13,7 +13,7 @@ esphome:
   name_add_mac_suffix: True  
   project:
     name: "$brand.ESP32S3-$model_name"
-    version: "2025.10.8"
+    version: "2025.10.10"
 
 external_components:
   - source: github://asund/esphome-daikin-s21
@@ -70,9 +70,10 @@ climate:
   - name: ${upper_devicename}
     platform: daikin_s21
     # Settings from ESPHome Climate component:
-    # visual:
-    #   target_temperature: 1
-    #   current_temperature: 0.5
+    visual:
+      temperature_step:
+        target_temperature: 0.5
+        current_temperature: 0.5
     # Settings from DaikinS21Climate:
     supported_modes:  # off and heat_cool are always supported
       - cool
@@ -83,11 +84,11 @@ climate:
       - eco
       - boost
     humidity_sensor: daikin_humidity # If your unit supports humidity, it can be reported in the climate component
-    update_interval: 60s
-    max_temperature: 32 # maximum setpoint when cool
-    max_heat_temperature: 30  # maximum setpoint when heat or heat_cool
+    update_interval: 30s
+    max_cool_temperature: 32 # maximum setpoint when cool
     min_cool_temperature: 18  # minimum setpoint when cool or heat_cool
-    min_temperature: 10
+    max_heat_temperature: 30  # maximum setpoint when heat or heat_cool
+    min_heat_temperature: 10 # minimum setpoint when heat
 
 # Optional additional sensors.
 sensor:
