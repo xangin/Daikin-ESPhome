@@ -13,7 +13,7 @@ esphome:
   comment: "ESP32C3 for Daikin AC"
   project:
     name: "$brand.ESP32C3-$model_name"
-    version: "2025.10.10"
+    version: "2025.10.19"
 
 external_components:
   - source: github://asund/esphome-daikin-s21@main
@@ -77,7 +77,8 @@ climate:
         target_temperature: 0.5
         current_temperature: 0.5
     # Settings from DaikinS21Climate:
-    supported_modes:  # off and heat_cool are always supported
+    supported_modes:  # off always supported
+      - heat_cool
       - cool
       - heat
       - dry
@@ -90,7 +91,7 @@ climate:
     max_cool_temperature: 32 # maximum setpoint when cool
     min_cool_temperature: 18  # minimum setpoint when cool or heat_cool
     max_heat_temperature: 30  # maximum setpoint when heat or heat_cool
-    min_heat_temperature: 10 # minimum setpoint when heat
+    min_heat_temperature: 18 # minimum setpoint when heat
 
 # Optional additional sensors.
 sensor:
@@ -110,7 +111,9 @@ sensor:
     humidity:
       id: daikin_humidity
       name: ${upper_devicename} Humidity
-
+    power_consumption:
+      name: ${upper_devicename} Power Consumption  
+      
   - platform: wifi_signal
     name: "WiFi Signal"
     update_interval: 60s
