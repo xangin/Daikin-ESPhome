@@ -13,7 +13,7 @@ esphome:
   name_add_mac_suffix: True  
   project:
     name: "$brand.ESP32S3-$model_name"
-    version: "2025.10.10"
+    version: "2025.10.19"
 
 external_components:
   - source: github://asund/esphome-daikin-s21
@@ -75,7 +75,8 @@ climate:
         target_temperature: 0.5
         current_temperature: 0.5
     # Settings from DaikinS21Climate:
-    supported_modes:  # off and heat_cool are always supported
+    supported_modes:  # off is always supported
+      - heat_cool
       - cool
       - heat
       - dry
@@ -88,7 +89,7 @@ climate:
     max_cool_temperature: 32 # maximum setpoint when cool
     min_cool_temperature: 18  # minimum setpoint when cool or heat_cool
     max_heat_temperature: 30  # maximum setpoint when heat or heat_cool
-    min_heat_temperature: 10 # minimum setpoint when heat
+    min_heat_temperature: 18 # minimum setpoint when heat
 
 # Optional additional sensors.
 sensor:
