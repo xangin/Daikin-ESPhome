@@ -44,7 +44,8 @@
 | FTXV22/28/36UVLT | 壁掛 | S403  | - |
 | FTXV41/50/60/71UVLT | 壁掛 | S403 mini  | - |
 | FTXV36RVLT | 壁掛 | S21 | - |
-| FTHF**VAVLT | 壁掛 | S403 | - |
+| FTHF41/50/60/71VAVLT | 壁掛 | S403 mini | - |
+| FTHF22/28/36VAVLT | 壁掛 | S403| - |
 | CTXP**TVLT | 壁掛 | S403 | - |
 | FTXM**RVLT | 壁掛 | S21 | - |
 | FTXM**NVLT | 壁掛 | ? | - |
