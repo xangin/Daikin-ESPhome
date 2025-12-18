@@ -49,7 +49,7 @@
 | CTXP**TVLT | 壁掛 | S403 | - |
 | FTXM**RVLT | 壁掛 | S21 | - |
 | FTXM**NVLT | 壁掛 | ? | - |
-| FTXM**SVLT | 壁掛 | ? | - |
+| FTXM71SVLT | 壁掛 | S403 mini | - |
 | FTXS30KVLT | 壁掛 | S403 | - |
 | FTXS25KVLT | 壁掛 | S21 | - |
 | FTXS40/70JVLT | 壁掛 | S21 | - |
