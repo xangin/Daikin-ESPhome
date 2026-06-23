@@ -35,7 +35,7 @@
 | 型號 | 型態 | 接頭 | 備註 |
 |:--:|:--:|:--:|:--:|
 | FTXM**YVLT | 壁掛 | ? | - |
-| FTXM**XVLT | 壁掛 | ? | - |
+| FTXM**XVLT | 壁掛 | Ｓ21 mini? | - |
 | FTXM41/60RVLT | 壁掛 | S21 | - |
 | FTXM**VVLT | 壁掛 | S21 mini | - |
 | FTXM**ZVLT | 壁掛 | S21 mini | VCC在Pin1! |
